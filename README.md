@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">📊Programming and Statistical Snalysis<br>📚 Learning IA/ML</p>
+<p align="left">📊Programming and Data analysis<br>📚 Learning IA/ML</p>
 
 ###
 
@@ -37,9 +37,7 @@
 ###
 
 <div align="left">
-  <a href="www.linkedin.com/in/guilherme-souza-9b3b93286" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
+  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/stackoverflow/default.svg" width="52" height="40" alt="stackoverflow logo"  />
 </div>
 
