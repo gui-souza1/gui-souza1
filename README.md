@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">📊Programming and Data analysis<br>📚 Learning IA/ML</p>
+<p align="left">📊Programming and Data analysis<br>📚 Learning IA/ML<br>🎯  Data Analyst/Data Engineer</p>
 
 ###
 
