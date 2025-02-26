@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">I'm a python developer and data analyst from São Paulo, Brazil.</p>
+<p align="left">I'm from São Paulo, Brazil.</p>
 
 ###
 
