@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Currently pursuing a BSc in Computer Science @ UFABC and doing an internship in business analytics (1+ year), working at the intersection of data and software engineering.<br>My focus is on data engineering, developing skills in data modeling, pipelines, and analytics-oriented systems.</p>
+<p align="left">Currently pursuing a BSc in Computer Science @ UFABC and doing an internship in business analytics (1+ year), working at the intersection of data and software (back-end).<br>My focus is data engineering, I am developing skills in data modeling, pipelines, and analytics-oriented systems.</p>
 
 ###
 
