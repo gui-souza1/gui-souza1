@@ -20,7 +20,7 @@
 
 <br clear="both">
 
-<p align="left">- ⛁ ETL Pipeline with Python — ingestion, transformation and loading of structured data. (Coming Soon)</p>
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/ETL-Pipeline-with-Python">ETL Pipeline with Python</a> — fundamentos práticos de Data Engineering através da construção de um pipeline ETL completo.</p>
 
 ###
 
@@ -28,6 +28,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="24" alt="python logo"  />
   <img width="5" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="24" alt="pandas logo"  />
+  <img width="5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="24" alt="postgresql logo"  />
 </div>
 
 ###
