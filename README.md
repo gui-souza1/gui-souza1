@@ -20,6 +20,12 @@
 
 <br clear="both">
 
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/fastapi-data-extractor">FastAPI : Fundamentos e setup profissional</a> — Projeto prático de desenvolviento em FastAPI.</p>
+
+###
+
+<br clear="both">
+
 <p align="left">- ⛁ <a href="https://github.com/gui-souza1/ETL-Pipeline-with-Python">ETL Pipeline with Python</a> — fundamentos práticos de Data Engineering através da construção de um pipeline ETL completo.</p>
 
 ###
@@ -36,7 +42,7 @@
 
 <br clear="both">
 
-<p align="left">- ⛁ CSV to Parquet: Converter in C — compression, optimization, and metadata handling (Coming Soon)</p>
+<p align="left">- ⛁ CSV to Parquet: Converter in C — compression, optimization, and metadata handling (Coming Soon).</p>
 
 ###
 
@@ -48,9 +54,7 @@
   <img src="https://skillicons.dev/icons?i=git" height="24" alt="git logo"  />
 </div>
 
-###
-
-<p align="left">----------------------------------------------------------------------------------------------------------------</p>
+---
 
 ###
 
