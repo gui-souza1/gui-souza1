@@ -1,18 +1,27 @@
-<h2 align="left"># Data Engineering Path</h2>
+<h2 align="left">Data Engineering</h2>
 
-###
+  ###
 
-<p align="left">Currently pursuing a B.Sc. in Computer Science @ UFABC and doing an internship in business analytics (1+ year), working at the intersection of data, software, and business needs.<br>My focus is on data engineering, developing skills in data modeling, data pipelines, and analytics-oriented systems.</p>
+  <p align="left">I work in data engineering and I'm finishing a B.Sc. in Computer Science @ UFABC. My work follows the whole path a record
+  takes: extraction from third-party APIs, landing in object storage, modeling through a medallion lakehouse, and out to the people who
+  make decisions with it.<br><br>Day to day that means <b>Databricks, dbt, Airflow, Airbyte, Python and SQL</b>, mostly on AWS. I came into
+  data engineering from the business side, and I have built both ends of the same dataset — the application that produces the record and
+  the pipeline that models it.<br><br>What I care about most is the part that fails quietly. A pipeline that goes green while a dashboard
+  shows the wrong number is the expensive bug, so most of my attention goes to tests, freshness, lineage and knowing who actually consumes
+  what.</p>
 
-###
+  ###
 
-<h3 align="left">What I'm working on</h3>
+  <h3 align="left">What I'm working on</h3>
 
-###
+  ###
 
-<p align="left">- Designing and implementing data pipelines using Python and SQL.<br>- Working with cloud and analytics tools for infrastructure and governance.<br>- Built a Parquet metadata inspector in C to understand how columnar storage enables predicate pushdown, compression and efficient analytics at scale.</p>
-
-###
+  <p align="left">- <b>Production pipelines</b> — extraction DAGs in Airflow, including a custom GraphQL connector for a source with no
+  native integration, with incremental loading and checkpointing so a retry never re-hits the API.<br>- <b>Lakehouse modeling and
+  governance</b> — dbt on Databricks with the medallion pattern: source freshness thresholds, documented grain, generic tests, macros, and
+  lineage-driven cleanup of deprecated and quietly frozen tables.<br>- <b>Parquet metadata inspector in C</b> — parsing footers and column
+  chunk metadata by hand to see how columnar storage actually delivers predicate pushdown, compression and column pruning. Tools are easier
+  to trust once you have read the bytes yourself.</p>
 
 <h3 align="left">Featured Projects</h3>
 
