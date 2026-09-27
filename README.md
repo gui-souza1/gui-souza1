@@ -2,12 +2,10 @@
 
   ###
 
-  <p align="left">I work in data engineering and I'm finishing a B.Sc. in Computer Science @ UFABC. My work follows the whole path a record
-  takes: extraction from third-party APIs, landing in object storage, modeling through a medallion lakehouse, and out to the people who
-  make decisions with it.<br><br>Day to day that means <b>Databricks, dbt, Airflow, Airbyte, Python and SQL</b>, mostly on AWS. I came into
-  data engineering from the business side, and I have built both ends of the same dataset — the application that produces the record and
-  the pipeline that models it.<br><br>What I care about most is the part that fails quietly. A pipeline that goes green while a dashboard
-  shows the wrong number is the expensive bug, so most of my attention goes to tests, freshness, lineage and knowing who actually consumes
+  <p align="left">I work in data engineering and I'm finishing a B.Sc. in Computer Science @ UFABC. My work follows the whole path data
+  takes: extraction, landing in object storage, modeling through a medallion lakehouse, and out to consumers.<br><br>My day to day means <b>Databricks, dbt, Airflow, Airbyte, Python and SQL</b>, mostly on AWS. I came into
+  data engineering from the business side, and I have built both ends of the same dataset<br><br>What I care about most is the part that fails quietly. A pipeline that goes green while a dashboard
+  shows the wrong number is the expensive error, so most of my attention goes to tests, freshness, lineage and knowing who actually consumes
   what.</p>
 
   ###
@@ -16,10 +14,10 @@
 
   ###
 
-  <p align="left">- <b>Production pipelines</b> — extraction DAGs in Airflow, including a custom GraphQL connector for a source with no
+  <p align="left">- <b>Production pipelines</b> : extraction DAGs in Airflow, including a custom GraphQL connector for a source with no
   native integration, with incremental loading and checkpointing so a retry never re-hits the API.<br>- <b>Lakehouse modeling and
-  governance</b> — dbt on Databricks with the medallion pattern: source freshness thresholds, documented grain, generic tests, macros, and
-  lineage-driven cleanup of deprecated and quietly frozen tables.<br>- <b>Parquet metadata inspector in C</b> — parsing footers and column
+  governance</b> : dbt on Databricks with the medallion pattern: source freshness thresholds, documented grain, generic tests, macros, and
+  lineage-driven cleanup of deprecated and quietly frozen tables.<br>- <b>Parquet metadata inspector in C</b> : parsing footers and column
   chunk metadata by hand to see how columnar storage actually delivers predicate pushdown, compression and column pruning. Tools are easier
   to trust once you have read the bytes yourself.</p>
 
@@ -29,13 +27,25 @@
 
 <br clear="both">
 
-<p align="left">- ⛁ <a href="https://github.com/gui-souza1/fastapi-data-extractor">FastAPI : Fundamentos e setup profissional</a> — Projeto prático de desenvolviento em FastAPI.</p>
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/fastapi-data-extractor">FastAPI Data Extractor</a> : A FastAPI service for data extraction, built while practicing a professional Python project setup: Poetry for dependency management, SQLAlchemy and Alembic for the data layer, and pytest + ruff for testing and linting.</p>
 
 ###
 
 <br clear="both">
 
-<p align="left">- ⛁ <a href="https://github.com/gui-souza1/ETL-Pipeline-with-Python">ETL Pipeline with Python</a> — fundamentos práticos de Data Engineering através da construção de um pipeline ETL completo.</p>
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/J.E.V.I.S">J.E.V.I.S. — Voice-Controlled Browser Agent</a> : A voice-driven browser automation prototype: speech commands are turned into typed, probabilistic decisions and gated through an allow/confirm/deny safety policy before Playwright executes them on the page.</p>
+
+###
+
+<br clear="both">
+
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/ETL-Consolidacao-Planilhas">ETL — Spreadsheet Consolidation</a> : A Python ETL that ingests a batch of spreadsheets and consolidates them into a single output file.</p>
+
+###
+
+<br clear="both">
+
+<p align="left">- ⛁ <a href="https://github.com/gui-souza1/ETL-Pipeline-with-Python">ETL Pipeline with Python</a> : An automated pipeline that extracts BTC/USD and USD/BRL rates from public APIs, transforms and converts the currency, and loads the result into Delta Tables on Databricks (Unity Catalog) with incremental append and automatic schema evolution, orchestrated via Databricks Workflows and served through an interactive dashboard.</p>
 
 ###
 
@@ -48,20 +58,6 @@
 </div>
 
 ###
-
-<br clear="both">
-
-<p align="left">- ⛁ CSV to Parquet: Converter in C — compression, optimization, and metadata handling (Coming Soon).</p>
-
-###
-
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=c" height="24" alt="c logo"  />
-  <img width="5" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gcc/gcc-original.svg" height="24" alt="gcc logo"  />
-  <img width="5" />
-  <img src="https://skillicons.dev/icons?i=git" height="24" alt="git logo"  />
-</div>
 
 ---
 
